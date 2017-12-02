@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: h3poteto/playground-nginx
+          image: h3poteto/playground-nginx:0.0.4
           ports:
             - containerPort: 80
 ---
